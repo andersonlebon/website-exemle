@@ -1,0 +1,122 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+body::before {
+    width: 100vw;
+    height: 100vh;
+    content: '';
+    position: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0,0,0,0.99)), url(../image/53574.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+
+}
+.containerlog {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 400px;
+    padding: 80px 40px;
+    border-radius: 25px;
+    
+}
+img {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+   
+    text-align: center;
+    margin-left: 25%;
+    border-radius: 50%;
+    background-color: rgb(95, 63, 40);
+    overflow: hidden;
+    top: calc(-90px/2);
+    left: calc(50% -40px);
+
+
+}
+.containerlog h2 {
+    margin: 0px;
+    text-align: center;
+    color: rgb(156, 140, 44);
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    
+}
+.containerlog p {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    color: white;
+}
+.containerlog p a {
+    color: rgb(134, 136, 12);
+    font-weight: normal;
+    text-decoration: none;
+  
+}
+.containerlog p a {
+    color: rgb(134, 136, 12);
+    font-weight: normal;
+    text-decoration: none;
+}
+.containerlog p a:hover {
+    color: rgb(229, 233, 11);
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.containerlog input {
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+.containerlog input[type=email],
+.containerlog input[type=password] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 35px;
+    color: #fff;
+    font-size: 15px;
+}
+.containerlog input[type=submit]{
+    height: 30px;
+    color: rgb(247, 215, 37);
+    background: rgb(121, 61, 61);
+    font-size: 15px;
+    border-radius: 25px;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    margin-top: 5%;
+}
+.containerlog input[type=submit]:hover {
+    height: 30px;
+    color: rgb(12, 12, 12);
+    background: rgb(248, 48, 48);
+    font-size: 15px;
+    border-radius: 25px;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    margin-top: 5%;
+
+}
+input[type=checkbox]{
+    width: 20%;
+    text-transform: capitalize;
+}
